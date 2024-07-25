@@ -5,7 +5,7 @@ new autoComplete({
     selector: "#autoComplete",           // Input field selector              | (Optional)
     threshold: 2,                        // Min. Chars length to start Engine | (Optional)
     debounce: 100,                       // Post duration for engine to start | (Optional)
-    searchEngine: "strict",              // Search Engine type/mode           | (Optional)
+    searchEngine: "strict",              // Search Engine type/mode           | (Optionel)
     resultsList: {                       // Rendered results list object      | (Optional)
         render: true,
         container: source => {
